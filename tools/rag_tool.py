@@ -25,7 +25,7 @@ def RAG(file_path):
 
     # Set environment variables
     os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
-    os.environ["LANGSMITH_API_KEY"] = "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"
+    os.environ["LANGSMITH_API_KEY"] = "LANGSMITH_API_KEY"
     os.environ["LANGSMITH_TRACING"] = "true"
 
     # Load PDF
