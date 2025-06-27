@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/bg.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    min-height:100vh;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.content {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.content2 {
+    color: white;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.main-heading2 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.main-heading {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+
+.paragraph {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(179, 179, 179);
+    font-style: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #423f3f00;
+    padding: 15px 40px;
+    /* box-shadow: 0 0 10px rgba(189, 186, 186, 0.829) */
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.logo-image {
+    height: 40px;
+    object-fit: contain;
+    border-radius: 5px;
+    padding-right: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display:flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffff;
+    transition: color 0.3s;
+    font-size: medium;
+}
+
+.nav-links a:hover {
+    color:  rgb(35, 217, 153);;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, colour 0.3s;
+}
+
+.btn.signup {
+    background-color: rgb(35, 217, 153);
+    color: #000000; 
+    border-radius: 30px;
+    padding: 3px 9px
+}
+
+.btn-grp {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-talk:hover {
+    background-color: rgb(35, 217, 153);
+    color: black;
+}
+
+.btn-mid-signup {
+    background-color: rgb(35, 217, 153);
+    color: #000000; 
+    border-radius: 30px;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-mid-signup:hover {
+    background-color: #29c495;
+}
+
+.btn-talk {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 14px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+.btn.login {
+    background-color: transparent;
+    border: 2px solid #5e5e5e61;
+    color: #fff; 
+    border-radius: 30px; 
+    padding: 5px 16px
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+
+.card-big {
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border: 1px solid #000000c9;
+    border-radius: 1px;
+    padding: 8px;
+    width: 600px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+.card-small {
+    background-color: rgba(0, 0, 0);
+    color:white;
+    border: 1px solid #000000c9;
+    border-radius: 10px;
+    padding: 8px;
+    width: 450px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction:column;
+    transition: transform 0.3s;
+}
+
+.card-big:hover, .card-small:hover {
+    transform: scale(1.019);
+}
+
+.card-big video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    margin-bottom: 1px;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.card-small video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 1px;
+    z-index: 1;
+    border-radius: 8px;
+
+}
+
