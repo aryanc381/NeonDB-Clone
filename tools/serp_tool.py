@@ -34,15 +34,15 @@ human_message = HumanMessagePromptTemplate.from_template("{input}")
 
 prompt = ChatPromptTemplate.from_messages([system_message, human_message])
 
-serp_api_key="78a61ae91c0ce20aa9ad0e63d97c9e3ac408d04c873ab9c6f7c55b347dcd786b"
+serp_api_key="SERP_API_KEY"
 search_tools = SerpAPIWrapper(serpapi_api_key=serp_api_key)
 
-llm = SarvamChat(api_key="a43b869d-bdd4-4257-9f93-2753ccc9736d")
+llm = SarvamChat(api_key="SARVAM_API_KEY")
 llm_chain = prompt | llm
 
 
 
-search = SerpAPIWrapper(serpapi_api_key="78a61ae91c0ce20aa9ad0e63d97c9e3ac408d04c873ab9c6f7c55b347dcd786b")
+search = SerpAPIWrapper(serpapi_api_key="SERP_API_KEY")
 tools = [
     Tool(
         name="Search",
