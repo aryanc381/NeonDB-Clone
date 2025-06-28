@@ -1,65 +1,71 @@
-
 # NeonDB Clone
 
-A clean and responsive **frontend-only clone** of [NeonDB](https://neon.tech/) built using **HTML**, **CSS**, and **JavaScript**. This project recreates the look and feel of NeonDB's UI with static components and interactions.
+A responsive **frontend-only clone** of [NeonDB](https://neon.tech/) created using **HTML**, **CSS**, and **JavaScript**. This project replicates NeonDB’s modern UI design with static visuals and interactive components.
 
-## 🌟 Features
+---
 
-- 💡 Replicates NeonDB's modern interface
-- 📱 Responsive layout for different screen sizes
-- 🎨 Styled with custom CSS mimicking Neon’s theme
-- 🖱️ Basic UI interactivity using vanilla JavaScript
-
-## 🖼️ Preview
-
-![Screenshot](./assets/images/screenshot.png) <!-- Update with correct path -->
-
-## 🚀 Technologies Used
-
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla)**
-
-## 📁 Folder Structure
+## 📁 File Structure
 
 ```
 
 NeonDB-Clone/
 ├── assets/
-│   ├── css/
-│   ├── images/
-│   └── js/
-├── index.html
+│   ├── bgvid/
+│   │   ├── big-card.mp4
+│   │   └── small-card.mp4
+│   └── logo.png
+├── static/
+│   └── style.css
+├── templates/
+│   └── index.html
+├── script/
+│   └── script.js
 └── README.md
 
 ````
 
-## 🛠️ How to Run Locally
+---
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/aryanc381/NeonDB-Clone.git
-````
+## ✨ Features
 
-2. Open `index.html` directly in your browser, or use Live Server in VS Code.
-
-## 📌 Note
-
-* This is **not** a full-stack project.
-* There is **no backend/database integration** — UI only.
-
-## 📜 License
-
-This project is open-source under the [MIT License](LICENSE).
+- 🔷 NeonDB-inspired user interface
+- 🎨 Custom CSS styling
+- 📹 Video background and cards
+- 🖱️ Simple interactivity with vanilla JS
+- 📱 Responsive design
 
 ---
 
-```
+## 🚀 How to Run
 
-Let me know if you'd like to:
-- Add more screenshots
-- Include deployment instructions (e.g., GitHub Pages or Netlify)
-- Make it interactive with mock data or animations
+1. **Clone the repository**
 
-Want me to auto-generate a live GitHub Pages link too?
-```
+   ```bash
+   git clone https://github.com/aryanc381/NeonDB-Clone.git
+
+2. **Open the project**
+
+   * Navigate to the `templates/` folder.
+   * Open `index.html` in your browser.
+   * Alternatively, right-click the file and select **“Open with Live Server”** if using VS Code.
+
+---
+
+## 🛠️ Built With
+
+* **HTML5**
+* **CSS3**
+* **JavaScript (Vanilla)**
+
+---
+
+## 📷 Preview
+
+---
+
+## 📌 Note
+
+* This is a static frontend project.
+* No backend/database integration is included.
+
+---
